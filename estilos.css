@@ -1,0 +1,31 @@
+/* Para llamar a un elemento se pone directamente el nombre de la etiqueta 
+    Y TODAS LAS ETIQUETAS que correspondan a ese nombre
+    se les va a aplicar el siguiente estilo */
+
+header {
+    /* estilo va aca adentro */
+    background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+li {
+    color: blue;
+}
+
+/* Las clases se llaman con un punto adelante y se aplican A TODAS LAS ETIQUETAS que tengan la clase */
+.titulo-secundario {
+    color: green;
+    font-family: 'Arial';
+    font-size: 20px;
+    border: 1px solid blue;
+}
+
+/* Para llamar por ID se le pone un #, pero solamente puede haber una etiqueta con UN ID. */
+#mi-id {
+    color: violet;
+}
