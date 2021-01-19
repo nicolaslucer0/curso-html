@@ -32,18 +32,21 @@
     padding: 50px;
     text-align: center;
     border-radius: 20px;
-    border-style: solid black 5px; 
+    box-shadow: 1px 1px 1px 1px grey;
 }
 
 .segundo {
     padding: 50px;
     text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px grey;
 }
 
 .tercero {
-    border: solid black 5px; 
     padding: 50px;
     text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px grey;
 }
 
 
