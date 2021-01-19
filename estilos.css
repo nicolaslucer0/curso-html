@@ -11,5 +11,55 @@
 .menu-item {
     margin: 10px;
     font-family: Helvetica, Futura, Arial, Verdana, sans-serif;
-    text-decoration: underline;
+    text-decoration: underline green;
+}
+
+
+#principal{ 
+    margin:auto; 
+    display: block;
+    width: 100%; 
+    }
+
+.enlaces {
+    display: flex; 
+    list-style: none; 
+    justify-content:space-evenly;
+    padding: 70px; 
+}
+
+.primero {
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid black 5px; 
+}
+
+.segundo {
+    padding: 50px;
+    text-align: center;
+}
+
+.tercero {
+    border: solid black 5px; 
+    padding: 50px;
+    text-align: center;
+}
+
+
+.pie {
+    display: flex; 
+    list-style: none; 
+    justify-content:space-around;
+    align-items:center;
+    background-color: black;
+    height: 200px; 
+    
+}
+
+
+
+body {
+    margin: 0px;
+    padding: none; 
 }
